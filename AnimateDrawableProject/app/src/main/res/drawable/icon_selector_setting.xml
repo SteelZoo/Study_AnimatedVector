@@ -2,15 +2,14 @@
 <animated-selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- provide a different drawable for each state-->
     <item android:id="@+id/state_on"
-        android:drawable="@drawable/icon_animated_graph"
+        android:drawable="@drawable/icon_rotate_setting"
         android:state_checked="true"/>
 
     <item android:id="@+id/state_off"
-        android:drawable="@drawable/icon_nonfilled_graph"/>
+        android:drawable="@drawable/icon_nonfilled_setting"/>
 
     <transition
-        android:drawable="@drawable/icon_animated_graph"
+        android:drawable="@drawable/icon_rotate_setting"
         android:fromId="@id/state_off"
         android:toId="@id/state_on"/>
-
 </animated-selector>

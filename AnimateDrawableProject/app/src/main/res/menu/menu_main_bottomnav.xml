@@ -6,19 +6,19 @@
         android:enabled="true"
         android:icon="@drawable/icon_selector_graph"
         android:title="first"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/second"
         android:enabled="true"
-        android:icon="@drawable/icon_animated_graph"
+        android:icon="@drawable/icon_selector_setting"
         android:title="second"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
 
     <item
         android:id="@+id/third"
         android:enabled="true"
-        android:icon="@drawable/icon_animated_graph"
+        android:icon="@drawable/icon_selector_clock"
         android:title="third"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
 </menu>
