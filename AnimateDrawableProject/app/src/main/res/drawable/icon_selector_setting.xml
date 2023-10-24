@@ -6,7 +6,8 @@
         android:state_checked="true"/>
 
     <item android:id="@+id/state_off"
-        android:drawable="@drawable/icon_nonfilled_setting"/>
+        android:drawable="@drawable/icon_nonfilled_setting"
+        android:state_checked="false"/>
 
     <transition
         android:drawable="@drawable/icon_rotate_setting"
