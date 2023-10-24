@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:aapt="http://schemas.android.com/aapt">
-    <aapt:attr name="android:drawable">
-        <vector
-            android:width="24dp"
-            android:height="24dp"
-            android:viewportWidth="240"
-            android:viewportHeight="240">
-            <path
-                android:name="root"
-                android:fillColor="#559CFF"
-                android:pathData="M20,210 L20,90 L75,90 L75,210 Z M92.5,210 L92.5,30 L147.5,30 L147.5,210 Z M165,210L165,110L220,110L220,210Z"
-                />
-        </vector>
-    </aapt:attr>
-    <target android:name="root">
-        <aapt:attr name="android:animation">
-            <objectAnimator
-                android:duration="1000"
-                android:interpolator="@android:interpolator/fast_out_slow_in"
-                android:propertyName="pathData"
-                android:valueFrom="M20,210 L20,210 L75,210 L75,210 Z M92.5,210 L92.5,210 L147.5,210 L147.5,210 Z M165,210L165,210L220,210L220,210Z"
-                android:valueTo="M20,210 L20,90 L75,90 L75,210 Z M92.5,210 L92.5,30 L147.5,30 L147.5,210 Z M165,210L165,110L220,110L220,210Z"
-                android:valueType="pathType" />
-        </aapt:attr>
-    </target>
+    android:drawable="@drawable/icon_filled_graph">
+    <target
+        android:animation="@animator/popup_graph"
+        android:name="graph"/>
 </animated-vector>
